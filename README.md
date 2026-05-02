@@ -99,7 +99,7 @@ Treinamento de modelo de Machine Learning capaz de gerar legendas automáticas p
 
 <div align="center">
 
-![Snake animation](https://github.com/nokynoy/nokynoy/blob/output/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/nokynoy/nokynoy/output/dist/github-contribution-grid-snake.svg)
 
 </div>
 
