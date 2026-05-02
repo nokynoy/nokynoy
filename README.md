@@ -15,7 +15,7 @@
 </a>
 
 </div>
-<div aling="center">#  <h1>👋Olá, eu sou Daniel</h1>
+<div aling="center"> <h1>#👋Olá, eu sou Daniel</h1>
 
 ---
 
