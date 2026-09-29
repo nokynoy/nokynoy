@@ -97,7 +97,11 @@ Treinamento de modelo de Machine Learning capaz de gerar legendas automáticas p
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/nokynoy/nokynoy/output/github-contribution-grid-snake.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nokynoy/nokynoy/output/github-contribution-grid-snake-dark.svg"/>
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nokynoy/nokynoy/output/github-contribution-grid-snake.svg"/>
+  <img alt="Cobrinha comendo as contribuições" src="https://raw.githubusercontent.com/nokynoy/nokynoy/output/github-contribution-grid-snake.svg"/>
+</picture>
 
 </div>
 

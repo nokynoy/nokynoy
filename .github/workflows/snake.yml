@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 */12 * * *"
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - ".github/workflows/snake.yml"
+      - ".github/scripts/snake_style.py"
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -15,11 +20,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - uses: Platane/snk@v3
         with:
           github_user_name: nokynoy
           outputs: |
             dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+
+      - name: Redesenhar a cobra
+        run: |
+          python3 .github/scripts/snake_style.py dist/github-contribution-grid-snake.svg --theme light
+          python3 .github/scripts/snake_style.py dist/github-contribution-grid-snake-dark.svg --theme dark
 
       - uses: crazy-max/ghaction-github-pages@v3
         with:
