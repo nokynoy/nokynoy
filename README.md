@@ -97,7 +97,10 @@ Treinamento de modelo de Machine Learning capaz de gerar legendas automáticas p
 
 <div align="center">
 
-Mostrar Imagem
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nokynoy/nokynoy/output/github-contribution-grid-snake-dark.svg?v=2"/>
+  <img alt="Cobrinha comendo as contribuições" src="https://raw.githubusercontent.com/nokynoy/nokynoy/output/github-contribution-grid-snake.svg?v=2"/>
+</picture>
 
 </div>
 
