@@ -42,7 +42,7 @@ jobs:
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: stats
-          options: username=nokynoy&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true
+          options: username=nokynoy&show_icons=true&theme=tokyonight&hide_border=true
           path: dist/stats.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
