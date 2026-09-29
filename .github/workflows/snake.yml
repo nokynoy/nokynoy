@@ -8,15 +8,13 @@ on:
     branches: [main]
     paths:
       - ".github/workflows/snake.yml"
-      - ".github/scripts/snake_style.py"
+      - ".github/scripts/**"
 
 env:
   FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
 permissions:
   contents: write
-  issues: read
-  pull-requests: read
 
 jobs:
   build:
@@ -34,23 +32,19 @@ jobs:
       - name: Redesenhar a cobra
         run: |
           sudo chown -R "$(id -u):$(id -g)" dist
-          ls -la dist
           python3 .github/scripts/snake_style.py dist/github-contribution-grid-snake.svg --theme light
           python3 .github/scripts/snake_style.py dist/github-contribution-grid-snake-dark.svg --theme dark
 
       - name: Cartão de estatísticas
-        uses: readme-tools/github-readme-stats-action@v1
-        with:
-          card: stats
-          options: username=nokynoy&show_icons=true&theme=tokyonight&hide_border=true
-          path: dist/stats.svg
-          token: ${{ secrets.GITHUB_TOKEN }}
+        run: python3 .github/scripts/stats_card.py nokynoy dist/stats.svg
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Cartão de linguagens
         uses: readme-tools/github-readme-stats-action@v1
         with:
           card: top-langs
-          options: username=nokynoy&layout=compact&langs_count=8&theme=tokyonight&hide_border=true
+          options: username=nokynoy&layout=compact&langs_count=8&theme=tokyonight&hide_border=true&custom_title=Linguagens%20mais%20usadas
           path: dist/top-langs.svg
           token: ${{ secrets.GITHUB_TOKEN }}
 
