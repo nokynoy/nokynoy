@@ -29,11 +29,13 @@ jobs:
             dist/github-contribution-grid-snake.svg
             dist/github-contribution-grid-snake-dark.svg?palette=github-dark
 
-      - name: Redesenhar a cobra
-        run: |
-          sudo chown -R "$(id -u):$(id -g)" dist
-          python3 .github/scripts/snake_style.py dist/github-contribution-grid-snake.svg --theme light
-          python3 .github/scripts/snake_style.py dist/github-contribution-grid-snake-dark.svg --theme dark
+      - name: Liberar a pasta dist
+        # a cobra é gerada em Docker como root; sem isso o cartão de estatísticas não consegue salvar
+        run: sudo chown -R "$(id -u):$(id -g)" dist
+
+      # Para voltar a cobra redesenhada (cabeça, olhos, língua), adicione:
+      #   python3 .github/scripts/snake_style.py dist/github-contribution-grid-snake.svg --theme light
+      #   python3 .github/scripts/snake_style.py dist/github-contribution-grid-snake-dark.svg --theme dark
 
       - name: Cartão de estatísticas
         run: python3 .github/scripts/stats_card.py nokynoy dist/stats.svg
