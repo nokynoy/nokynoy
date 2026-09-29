@@ -31,6 +31,8 @@ jobs:
 
       - name: Redesenhar a cobra
         run: |
+          sudo chown -R "$(id -u):$(id -g)" dist
+          ls -la dist
           python3 .github/scripts/snake_style.py dist/github-contribution-grid-snake.svg --theme light
           python3 .github/scripts/snake_style.py dist/github-contribution-grid-snake-dark.svg --theme dark
 
