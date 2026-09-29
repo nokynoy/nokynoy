@@ -85,9 +85,9 @@ Treinamento de modelo de Machine Learning capaz de gerar legendas automáticas p
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=nokynoy&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+<img height="180em" alt="Estatísticas do GitHub" src="https://raw.githubusercontent.com/nokynoy/nokynoy/output/stats.svg"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nokynoy&layout=compact&langs_count=7&theme=tokyonight"/>
+<img height="180em" alt="Linguagens mais usadas" src="https://raw.githubusercontent.com/nokynoy/nokynoy/output/top-langs.svg"/>
 
 </div>
 

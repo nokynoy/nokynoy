@@ -1,4 +1,4 @@
-name: Generate Snake
+name: Generate Snake e Estatísticas
 
 on:
   schedule:
@@ -33,6 +33,22 @@ jobs:
         run: |
           python3 .github/scripts/snake_style.py dist/github-contribution-grid-snake.svg --theme light
           python3 .github/scripts/snake_style.py dist/github-contribution-grid-snake-dark.svg --theme dark
+
+      - name: Cartão de estatísticas
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: stats
+          options: username=nokynoy&show_icons=true&theme=tokyonight&include_all_commits=true&hide_border=true
+          path: dist/stats.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Cartão de linguagens
+        uses: readme-tools/github-readme-stats-action@v1
+        with:
+          card: top-langs
+          options: username=nokynoy&layout=compact&langs_count=8&theme=tokyonight&hide_border=true
+          path: dist/top-langs.svg
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - uses: crazy-max/ghaction-github-pages@v3
         with:
