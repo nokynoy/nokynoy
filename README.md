@@ -1,5 +1,3 @@
-
-
 <div id="header" align="center">
   <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExbDdubHBlN2c3MHdqdW1sMTNwaG0ybW1hYmNmcnVodDhoNnZndmtmdiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/5dLoIhuX12Nl1MnQJ1/giphy.gif" width="200"/>
 </div>
@@ -15,7 +13,7 @@
 </a>
 
 </div>
-<div aling="center"> <h1>👋Olá, eu sou Daniel</h1>
+<div align="center"> <h1>👋Olá, eu sou Daniel</h1>
 
 ---
 
@@ -87,9 +85,9 @@ Treinamento de modelo de Machine Learning capaz de gerar legendas automáticas p
 
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=SEUUSUARIO&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=nokynoy&show_icons=true&theme=tokyonight&include_all_commits=true&count_private=true"/>
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SEUUSUARIO&layout=compact&langs_count=7&theme=tokyonight"/>
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=nokynoy&layout=compact&langs_count=7&theme=tokyonight"/>
 
 </div>
 
@@ -99,7 +97,7 @@ Treinamento de modelo de Machine Learning capaz de gerar legendas automáticas p
 
 <div align="center">
 
-![Snake animation](https://raw.githubusercontent.com/nokynoy/nokynoy/output/dist/github-contribution-grid-snake.svg)
+![Snake animation](https://raw.githubusercontent.com/nokynoy/nokynoy/output/github-contribution-grid-snake.svg)
 
 </div>
 
