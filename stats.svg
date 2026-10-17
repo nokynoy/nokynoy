@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="467" height="195" viewBox="0 0 467 195" role="img" aria-labelledby="t">
+<title id="t">Estatísticas do GitHub de Daniel</title>
+<style>
+.tt{font:600 18px 'Segoe UI',Ubuntu,Sans-Serif;fill:#70a5fd}
+.lb{font:600 14px 'Segoe UI',Ubuntu,Sans-Serif;fill:#38bdae}
+.vl{font:700 14px 'Segoe UI',Ubuntu,Sans-Serif;fill:#38bdae}
+.ic{stroke:#bf91f3;fill:#bf91f3}
+.row{opacity:0;animation:fade .4s ease-out forwards}
+.big{font:800 26px 'Segoe UI',Ubuntu,Sans-Serif;fill:#70a5fd}
+.cap{font:600 11px 'Segoe UI',Ubuntu,Sans-Serif;fill:#a9b1d6}
+.ring{fill:none;stroke:#70a5fd;stroke-width:6;stroke-linecap:round;stroke-dasharray:251;stroke-dashoffset:251;
+transform:rotate(-90deg);transform-origin:390px 108px;animation:ring 1.2s ease-out .3s forwards}
+@keyframes fade{to{opacity:1}}
+@keyframes ring{to{stroke-dashoffset:40}}
+</style>
+<rect x=".5" y=".5" width="466" height="194" rx="4.5" fill="#1a1b27"/>
+<text x="25" y="33" class="tt">Estatísticas de Daniel</text>
+<g class="row" style="animation-delay:150ms" transform="translate(25,58)"><g class="ic" transform="translate(0,-12)"><path d="M8 1.3l2 4.2 4.6.6-3.4 3.2.9 4.6L8 11.7l-4.1 2.2.9-4.6L1.4 6.1 6 5.5z" fill="none" stroke-width="1.4" stroke-linejoin="round"/></g><text x="26" class="lb">Estrelas recebidas:</text><text x="200" class="vl">2</text></g><g class="row" style="animation-delay:270ms" transform="translate(25,81)"><g class="ic" transform="translate(0,-12)"><circle cx="8" cy="8" r="3" fill="none" stroke-width="1.5"/><path d="M0.5 8H5M11 8h4.5" stroke-width="1.5" stroke-linecap="round"/></g><text x="26" class="lb">Commits:</text><text x="200" class="vl">65</text></g><g class="row" style="animation-delay:390ms" transform="translate(25,104)"><g class="ic" transform="translate(0,-12)"><circle cx="4" cy="3.5" r="1.8" fill="none" stroke-width="1.4"/><circle cx="4" cy="12.5" r="1.8" fill="none" stroke-width="1.4"/><circle cx="12" cy="12.5" r="1.8" fill="none" stroke-width="1.4"/><path d="M4 5.3v5.4M12 10.7V6.5a2 2 0 0 0-2-2H7.5M9 3l-1.5 1.5L9 6" fill="none" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"/></g><text x="26" class="lb">Pull requests:</text><text x="200" class="vl">1</text></g><g class="row" style="animation-delay:510ms" transform="translate(25,127)"><g class="ic" transform="translate(0,-12)"><circle cx="8" cy="8" r="6.3" fill="none" stroke-width="1.4"/><circle cx="8" cy="8" r="1.4" stroke="none"/></g><text x="26" class="lb">Issues abertas:</text><text x="200" class="vl">0</text></g><g class="row" style="animation-delay:630ms" transform="translate(25,150)"><g class="ic" transform="translate(0,-12)"><path d="M3 2.5A1.5 1.5 0 0 1 4.5 1H13v11H4.5A1.5 1.5 0 0 0 3 13.5zM3 13.5A1.5 1.5 0 0 0 4.5 15H13v-3" fill="none" stroke-width="1.4" stroke-linejoin="round"/></g><text x="26" class="lb">Repositórios:</text><text x="200" class="vl">11</text></g><g class="row" style="animation-delay:750ms" transform="translate(25,173)"><g class="ic" transform="translate(0,-12)"><circle cx="6" cy="5" r="2.6" fill="none" stroke-width="1.4"/><path d="M1.5 14c0-2.6 2-4.4 4.5-4.4s4.5 1.8 4.5 4.4M11 3a2.4 2.4 0 0 1 0 4.4M12.3 9.8c1.3.6 2.2 2 2.2 4.2" fill="none" stroke-width="1.4" stroke-linecap="round"/></g><text x="26" class="lb">Seguidores:</text><text x="200" class="vl">22</text></g>
+<circle cx="390" cy="108" r="40" fill="none" stroke="#70a5fd" stroke-opacity=".2" stroke-width="6"/>
+<circle class="ring" cx="390" cy="108" r="40"/>
+<text x="390" y="112" text-anchor="middle" class="big">68</text>
+<text x="390" y="128" text-anchor="middle" class="cap">no total</text>
+</svg>
